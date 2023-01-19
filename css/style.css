@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    width: 1212px;
+    font-family: 'Roboto Condesed', sans-serif;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffff;
+
+}
+
+header {
+    height: 150px;
+    background-color: #969DA0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 31px;
+
+}
+
+header img {
+    width: 409px;
+    height: 116px;
+    display: block;
+    margin: 17px 22px;
+}
+
+header nav {
+    margin: 0px 47px;
+}
+
+header nav a {
+    margin-left: 51px;
+    font-size: 24px;
+}
+
+
+#magic {
+    width: 1212px;
+    height: 320px;
+    margin-bottom: 40px;
+}
+
+#magic h1 {
+    font-size: 36px;
+    padding: 15px 0px;
+}
+
+#mana h2, #planeswalker h2 {
+    font-size: 31.5px;
+    padding: 20px 0px;
+}
+
+#magic h1,
+#mana h2, #planeswalker h2 {
+
+    width: 100%;
+    height: 80px;
+    background-color: #D9D9D9;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#magic p {
+    width: 100%;
+    height: 200px;
+
+    font-size: 24px;
+    text-align: justify;
+
+    background-color: #D9D9D9;
+
+    padding: 35px;
+
+}
+
+/* --- Mana --- */
+
+#mana {
+    width: 1212px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#mana nav a {
+    display: inline-block;
+
+    width: 150px;
+    height: 40px;
+
+    text-align: center;
+    text-decoration: none;
+
+    padding: 15px 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    color: #ffff;
+}
+
+#mana article {
+    width: 1212px;
+    height: 420px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+#mana article img {
+    width: 280px;
+    height: 382px;
+    margin: 19px 27px 19px 45px;
+}
+
+#mana article article {
+    width: 835px;
+    height: 382px;
+    background-color: #EAECEC;
+    margin: 19px 0px 19px 0px;
+
+}
+
+#mana h3 {
+    width: 835px;
+    font-size: 27.5px;
+
+}
+
+#mana p {}
+
+/* clase  */
+
+.isla {
+    background-color: #60A9C1;
+}
+
+.pantano {
+    background-color: #3D443D;
+}
+
+.montaña{
+    background-color: #CA6A64;
+}
+
+.bosque{
+    background-color: #695F43;
+}
+
+.llanura{
+    background-color: #C29E68;
+}
+
+/* PLANESWALKER */
+#planeswalker {
+    margin-top: 15px;
+}
+
+#planeswalker h2+p{
+    width: 100%;
+    height: 200px;
+
+    font-size: 24px;
+    text-align: justify;
+
+    background-color: #D9D9D9;
+
+    padding: 35px;
+
+}
+
+#planeswalker nav a {
+    
+
+    display: inline-block;
+
+    width: 220px;
+    height: 40px;
+
+    text-align: center;
+    text-decoration: none;
+    
+    padding: 15px 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    color: black;
+}
+
+
+#planeswalker article {
+    width: 1212px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#planeswalker article img {
+    width: 400px;
+    height: 526px;
+    margin: 37px 35px;
+}
+
+#planeswalker article article {
+    width: 700px;
+    height: 512px;
+    margin: 37px 0px 37px;
+}
