@@ -110,6 +110,7 @@ header nav a {
     color: #ffff;
 }
 
+
 #mana article {
     width: 1212px;
     height: 420px;
@@ -144,14 +145,20 @@ header nav a {
 /* clase  */
 
 .isla {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #60A9C1;
 }
 
 .pantano {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #3D443D;
 }
 
 .montaña{
+    display: flex;
+    flex-wrap: wrap;
     background-color: #CA6A64;
 }
 
