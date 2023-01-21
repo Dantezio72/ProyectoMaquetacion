@@ -1,8 +1,8 @@
-const isla = document.querySelector('.isla')
-const pantano = document.querySelector('.pantano')
-const montaña = document.querySelector('.montaña')
-const bosque = document.querySelector('.bosque')
-const llanura = document.querySelector('.llanura')
+// const isla = document.querySelector('·isla')
+// const pantano = document.querySelector('.pantano')
+// const montaña = document.querySelector('.montaña')
+// const bosque = document.querySelector('.bosque')
+// const llanura = document.querySelector('.llanura')
 
 // pantano.style.display = 'none'
 // montaña.style.display = 'none'

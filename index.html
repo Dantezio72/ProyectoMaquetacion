@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +7,6 @@
     <title>Magic-The Gathering</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
     <header>
         <img src="img/logo-mtg.png" alt="logo magic the gathering">
@@ -32,56 +30,52 @@
         <section id="mana">
             <h2>Mana</h2>
             <nav>
-                <a href="#" onclick="showHide('isla')" class="isla">ISLA</a>
-                <a href="#" onclick="showHide('pantano')" class="pantano">PANTANO</a>
-                <a href="#" onclick="showHide('montaña')" class="montaña">MONTAÑA</a>
-                <a href="#" onclick="showHide('bosque')" class="bosque">BOSQUE</a>
-                <a href="#" onclick="showHide('llanura')" class="llanura">LLANURA</a>
+                <a href="#isla" onclick="showHide('isla')" class="isla"> ISLA </a>
+                <a href="#pantano" onclick="showHide('pantano')" class="pantano"> PANTANO </a>
+                <a href="#montaña" onclick="showHide('montaña')" class="montaña"> MONTAÑA </a>
+                <a href="#bosque" onclick="showHide('bosque')" class="bosque"> BOSQUE </a>
+                <a href="#llanura" onclick="showHide('llanura')" class="llanura"> LLANURA </a>
             </nav>
-            <article class="isla">
+            <article id="isla">
                 <img src="img/mana-isla.jpg" alt="imgen-">
-                <article>
+                <div>
                     <h3>AZUL</h3>
                     <p>El azul desarma las estrategias de su oponente y luego las aplasta. La previsión es la clave para
                         ganar con este color, que funciona mejor jugando a la defensiva y planificando unos dos o cinco
                         pasos por delante.</p>
-                </article>
-
+                </div>
             </article>
-            <article class="pantano">
+            <article id="pantano">
                 <img src="img/mana-swap.jpg" alt="imgen-">
-                <article>
+                <div>
                     <h3>NEGRO</h3>
                     <p>El color del poder a cualquier precio, en el que encontrarás criaturas espeluznantes como
                         vampiros,
                         demonios y zombies errantes. Con él intercambiarás recursos (o puede que incluso vidas) para
                         destruir a la competencia.</p>
-                </article>
-
+                </div>
             </article>
-            <article class="montaña">
+            <article id="montaña">
                 <img src="img/mana-montaña.jpg" alt="imgen-">
-                <article>
+                <div>
                     <h3>ROJO</h3>
                     <p>El rojo quiere ganar rápido y de inmediato. Este color es agresivo y utiliza la fuerza, el daño
                         directo y las tácticas veloces para acabar con sus oponentes</p>
-                </article>
-
+                </div>
             </article>
-            <article class="bosque">
+            <article id="bosque">
                 <img src="img/mana-bosque.jpg" alt="imgen-bosque">
-                <article>
+                <div>
                     <h3>VERDE</h3>
                     <p>El verde es una gran elección para principiantes y cuenta con las criaturas más feroces de la
                         naturaleza. Cuanto más grandes sean, ¡mejor! El verde juega igual que una fuerza tan imparable
                         como
                         la propia naturaleza. Si te encantan los animales, este es tu color.</p>
-                </article>
-
+                </div>
             </article>
-            <article class="llanura">
+            <article id="llanura">
                 <img src="img/llanura.jpg" alt="imagen-llanura">
-                <article>
+                <div>
                     <h3>BLANCO</h3>
                     <p>
                         El blanco cumple su objetivo mediante el trabajo en equipo y el equilibrio. Es el mejor color
@@ -89,48 +83,41 @@
                         ataques
                         enemigos.
                     </p>
-
-                </article>
-
+                </div>
             </article>
         </section>
-
         <section id="planeswalker">
-
             <h2>PLANESWALKER</h2>
-            <P>
+            <p>
                 Los planeswalkers (en Español, caminantes de planos) son, en el juego, un tipo de carta de permanente
                 que representa a uno de los tipos de seres más poderosos en la trama de Magic. Además, dentro del juego,
                 los jugadores también son considerados planeswalkers a efectos de la ambientación, sólo que no están
                 representados por cartas.
-            </P>
-
+            </p>
             <nav>
-                <a href="#" class="">NISSA REVANNE</a>
-                <a href="#" class="">CHANDRA NALAAR</a>
-                <a href="#" class="">ARLINN KORD</a>
-                <a href="#" class="">UGIN</a>
+                <a href="#nissa" onclick="ocultarMostrar('nissa')" class="nissa">NISSA REVANNE</a>
+                <a href="#chandra" onclick="ocultarMostrar('chandra')" class="chandra">CHANDRA NALAAR</a>
+                <a href="#arlinn" onclick="ocultarMostrar('arlinn')" class="arlinn">ARLINN KORD</a>
+                <a href="#ugin" onclick="ocultarMostrar('ugin')" class="ugin">UGIN</a>
             </nav>
-            <article>
+            <article id="nissa">
                 <img src="img/Nissa.jpg" alt="Nissa">
-                <article>
+                <div>
                     <h3>NISSA REVANE</h3>
                     <p><em>"La vida crece en todas partes. Mi gente solamente encuentra aquellos lugares en los que crece
                             con
                             más fuerza."</em></p>
                     <p>
-    
                         Nissa Revane es una poderosa animista élfica que puede despertar a la tierra misma para que luche a
                         su lado. Su conexión innata con la magia primigenia del Multiverso le otorga un profundo respeto por
                         la vida y los sistemas que la nutren. A pesar de su talante amable y cortés, lucha de manera feroz e
                         implacable para defender el mundo natural allá donde se vea amenazado.
                     </p>
-                </article>
-
+                </div>
             </article>
-            <article>
+            <article id="chandra">
                 <img src="img/chandra.jpg" alt="Chandra">
-                <article>
+                <div>
                     <h3>
                         CHANDRA NALAAR
                     </h3>
@@ -147,12 +134,11 @@
                         a veces agrava los problemas que intenta resolver. Aun así, las equivocaciones ocasionales no bastan
                         ni una pizca para aplacar su pasión, su optimismo y su deslenguada despreocupación.
                     </p>
-                </article>
-  
+                </div>
             </article>
-            <article>
+            <article id="arlinn">
                 <img src="img/Arlinn.jpg" alt="Arlinn">
-                <article>
+                <div>
                     <h3>
                         ARLINN KORD
                     </h3>
@@ -163,12 +149,11 @@
                         defensora de sus congéneres, empleando su habilidad para caminar entre humanos y licántropos como
                         medio de negociar una paz provisional.
                     </p>
-                </article>
-
+                </div>
             </article>
-            <article>
+            <article id="ugin">
                 <img src="img/ugin.jpg" alt="Ugin">
-                <article>
+                <div>
                     <h3>
                         UGIN
                     </h3>
@@ -177,14 +162,10 @@
                         cataclísmicas y renacido dos veces como mínimo. Es igual de astuto y poderoso que su gemelo, Nicol
                         Bolas, pero, por suerte, su interés en dominar mundos es mucho menor.
                     </p>
-                </article>
-
+                </div>
             </article>
-
-
         </section>
     </main>
     <script src="js/index.js"></script>
 </body>
-
 </html>
