@@ -120,9 +120,17 @@ header nav a {
     margin: 19px 0px 19px 0px;
 }
 
-#mana h3 {
+#mana article div h3 {
     width: 835px;
     font-size: 27.5px;
+    margin: 126px 0px 0px 27px;
+    /* Margin: arriba derecha abajo izquierda */
+}
+
+#mana article div p {
+    font-size: 22px;
+    margin: 0px 27px 0px 27px;
+    text-align: justify;
 }
 
 /* clase  */
@@ -204,7 +212,7 @@ header nav a {
     padding: 15px 0px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    color: black;
+    color: #ffff;
 }
 
 #planeswalker article {
@@ -224,4 +232,32 @@ header nav a {
     width: 700px;
     height: 512px;
     margin: 37px 0px 37px;
+    background-color: #EAECEC;
+}
+#planeswalker article div h3{
+    width: 835px;
+    font-size: 27.5px;
+    margin: 50px 0px 0px 27px;
+}
+
+#planeswalker article div p {
+    font-size: 22px;
+    margin: 27px 27px 27px 27px;
+    text-align: justify;
+}
+/* Color Fondo Planeswalker */
+
+.nissa, #nissa {
+    background-color: #8E9FA3;
+}
+.chandra, #chandra{
+    background-color: #8E2D02;
+}
+
+.arlinn, #arlinn {
+    background-color: #2B2D30;
+}
+
+.ugin, #ugin{ 
+    background-color: #319291;
 }
