@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,100;1,400&display=swap');
 
 
 * {
@@ -10,7 +10,7 @@
 body {
     margin: auto;
     width: 1212px;
-    font-family: 'Roboto Condesed', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header a {
@@ -240,7 +240,7 @@ header nav a {
 #planeswalker article div h3{
     width: 835px;
     font-size: 27.5px;
-    margin: 50px 0px 0px 27px;
+    margin: 35px 0px 0px 27px;
 }
 
 #planeswalker article div p {
