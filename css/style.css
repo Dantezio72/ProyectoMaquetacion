@@ -202,6 +202,7 @@ header nav a {
     text-align: center;
     text-decoration: none;
     padding: 15px 0px;
+    margin-top: 32px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     color: black;
@@ -224,4 +225,52 @@ header nav a {
     width: 700px;
     height: 512px;
     margin: 37px 0px 37px;
+}
+
+/* clase  */
+
+.nissa {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #86a0a8;
+}
+
+.chandra {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #af4014;
+}
+
+.arlinn{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #433f3f;
+}
+
+.ugin{
+    background-color: #21879e;
+}
+
+/* identificador  */
+
+#nissa{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #86a0a8;
+}
+
+#chandra{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #af4014;
+}
+
+#arlinn{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #433f3f;
+}
+
+#ugin{
+    background-color: #21879e;
 }

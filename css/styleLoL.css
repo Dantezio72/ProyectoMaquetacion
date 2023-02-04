@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,100;1,400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #002;
+}
+    header h1{
+        margin-left: 50px;
+        color: #fff;
+    }
+
+#fecha{
+    font-size: 20px;
+    margin-left: 100px;
+    display: inline-block;
+    color: #777;
+}
+
+header nav{
+    display: inline-block;
+}
+    header nav a{
+        padding: 20px;
+        color: #777;
+        font-size: 16px;
+        letter-spacing: 2px;
+        transition: .5s;
+    }
+    header nav a:hover{
+        color: #fff;
+    }
+
+.btn-group{
+    color: #fff;
+    background-color: #002;
+}
+.descubre{
+    color: #fff;
+}
