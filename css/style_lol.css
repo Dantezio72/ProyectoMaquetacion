@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,100;1,400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    width: 1212px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* ------------------------------- */
+/*---------- REGIONES------------- */
+/* ------------------------------- */
+#regiones {
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+
+}
+
+#regiones h2 {
+    display: block;
+    width: 1212px;
+    text-align: center;
+    text-decoration: underline darkcyan;
+    font-size: 31.5px;
+}
+
+#regiones article{
+    flex: 1;
+    overflow:hidden;
+    
+}
+
+#regiones article img {
+    object-fit: contain;
+    filter: grayscale(1);
+    height: 500px;
+    text-align: center;
+}
+
+#regiones article:hover {
+    flex: 20;
+
+}
+#regiones article:hover img {
+    filter: none;
+}
