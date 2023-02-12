@@ -1,7 +1,5 @@
-//ubicamos elemento dentro del DOM
 const txt = document.getElementById('txt')
 
-//creamos un objeto de fecha
 let fecha = new Date();
 
 let numDiaSemana = fecha.getDay()
@@ -30,14 +28,9 @@ else{
     diaSemana = 'sabado'
 }
 
-
-//obtenemos el numero del dia del mes
 let diaMes = fecha.getDate()
-
-//obtenemos el numero del año actual
 let año = fecha.getFullYear();
 
-//mostramos texto en el span (variante interpolacion)
 txt.innerText =  `${diaSemana}, enero ${diaMes}, ${año}`
 
-// ${ nombreVariable }
+
