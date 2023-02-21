@@ -26,13 +26,18 @@ body {
 
 #regiones h2 {
     display: block;
-    width: 1212px;
+    width: 100%;
     text-align: center;
     text-decoration: underline darkcyan;
     font-size: 31.5px;
 }
 
-#regiones article{
+/* Para que no aparesca hr en la pagina  */
+#regiones hr {
+    visibility: hidden;
+}
+
+#regiones article {
     flex: 1;
     overflow:hidden;
     
@@ -40,12 +45,14 @@ body {
 
 #regiones article img {
     object-fit: contain;
-    filter: grayscale(1);
+    /* filter: grayscale(1); */
     height: 500px;
     text-align: center;
+
 }
 
 #regiones article:hover {
+    transition: 3s ease;
     flex: 20;
 
 }
