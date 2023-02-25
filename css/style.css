@@ -14,8 +14,10 @@ body {
 }
 
 header a {
+
     text-decoration: none;
     color: #ffff;
+
 
 }
 
@@ -40,8 +42,24 @@ header nav {
 }
 
 header nav a {
-    margin-left: 51px;
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+
+    text-align: center;
+    margin-left: 30px;
+    padding: 6px;
+
     font-size: 24px;
+    transition: .9s;
+    border-radius: 12px;
+    border: 1px solid #FFFf;
+
+}
+
+header a:hover{
+    background-color: #3C3C3C;
+    color:  #ffff;
 }
 
 
@@ -72,7 +90,7 @@ header nav a {
 
 #magic p {
     width: 100%;
-    height: 200px;
+    height: 230px;
     font-size: 24px;
     text-align: justify;
     background-color: #D9D9D9;
@@ -98,6 +116,7 @@ header nav a {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     color: #ffff;
+    transition: .8s;
 }
 
 #mana article {
@@ -158,6 +177,11 @@ header nav a {
     background-color: #C29E68;
 }
 
+#mana nav a:hover{
+    background-color: #A9A9A9;
+    color: #fff;
+}
+
 /* identificador  */
 
 #isla {
@@ -209,11 +233,13 @@ header nav a {
     text-align: center;
     text-decoration: none;
     padding: 15px 0px;
-    margin-top: 32px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     color: #ffff;
+    transition: .5s;
 }
+
+
 
 #planeswalker article {
     width: 1212px;
@@ -260,4 +286,66 @@ header nav a {
 
 #planeswalker nav a:nth-child(4), #ugin{ 
     background-color: #319291;
+}
+
+#planeswalker nav a:hover{
+    background-color: 	#A9A9A9;
+    color: #fff;
+}
+
+/* Footer */
+#social {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 16px;
+    background-color: #969DA0;
+    margin-top: 10px;
+}
+
+#social h2{
+    width: 100%;
+    text-align: center;
+    font-size: 31.5px;
+    padding: 20px 0px;
+    text-decoration:underline;
+    color: #ffff;
+}
+
+#social a {
+    width: 80px;
+    height: 80px;
+    background-color: #ccc;
+    background-position: center;
+
+    border-radius: 8px;
+    background-size: 50px;
+    background-repeat: no-repeat;
+
+}
+
+
+#social a:nth-child(2) {
+    background-image: url(../icon/facebook.svg);
+}
+
+#social a:nth-child(3){
+    background-image: url(../icon/instagram.svg);
+}
+
+#social a:nth-child(4) {
+    background-image: url(../icon/linkedin.svg);
+}
+
+#social a:nth-child(5) {
+    background-image: url(../icon/github.svg);
+}
+
+
+#social a:hover {
+    background-color: #eee;
+    background-size: 60px;
+    box-shadow: 0 2px 8px #333;
+
 }
