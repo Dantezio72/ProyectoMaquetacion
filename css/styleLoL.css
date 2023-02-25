@@ -84,6 +84,19 @@ header nav section h1{
     transition: clip-path .3s;
     clip-path: var(--clip);
     position: absolute;
+    height: 200px;
+    right: 0;
+    bottom: 0;
+    width: max-content;
+    transform: translateY(100%);
+    background-color: #002;
+}
+.menu_nesting2{
+    list-style: none;
+    transition: clip-path .3s;
+    clip-path: var(--clip);
+    position: absolute;
+    height: 268px;
     right: 0;
     bottom: 0;
     width: max-content;
@@ -92,6 +105,7 @@ header nav section h1{
 }
 
 .menu_link--inside{
+    height: 66px;
     padding: 30px, 100px, 30px, 20px;
 }
 .menu_link--inside:hover{
@@ -101,7 +115,7 @@ header nav section h1{
 
 #carouselExampleSlidesOnly{
     width: 100%;
-    height: 600px;
+    height: 500px;
     margin: auto;
     display: flex;
 }
@@ -115,10 +129,21 @@ header nav section h1{
         display: block;
         width: 500px;
         height: 400px;
-        margin-left: 20px;
         font-size: 32px;
         letter-spacing: 2px;
         text-align: left;
         text-decoration: none;
         color: #fff;
     }
+
+#banner img{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin: auto;
+}
+
+#contenido{
+    width: 100%;
+    height: 500px;
+}

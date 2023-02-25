@@ -298,10 +298,11 @@ header a:hover{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: #969DA0;
     gap: 20px;
     padding: 16px;
-    background-color: #969DA0;
     margin-top: 10px;
+
 }
 
 #social h2{
@@ -320,7 +321,7 @@ header a:hover{
     background-position: center;
 
     border-radius: 8px;
-    background-size: 50px;
+    background-size: 36px;
     background-repeat: no-repeat;
 
 }
@@ -345,7 +346,7 @@ header a:hover{
 
 #social a:hover {
     background-color: #eee;
-    background-size: 60px;
+    background-size: 48px;
     box-shadow: 0 2px 8px #333;
 
 }
