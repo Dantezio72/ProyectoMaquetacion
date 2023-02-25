@@ -25,7 +25,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 31px;
+    margin-bottom: 10px;
 }
 
 header img {
@@ -48,7 +48,7 @@ header nav a {
 #magic {
     width: 1212px;
     height: 320px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 #magic h1 {
@@ -67,7 +67,7 @@ header nav a {
     height: 80px;
     background-color: #D9D9D9;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 #magic p {
@@ -105,7 +105,7 @@ header nav a {
     height: 420px;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 #mana article img {
@@ -188,7 +188,7 @@ header nav a {
 
 /* PLANESWALKER */
 #planeswalker {
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 #planeswalker h2+p{
@@ -198,7 +198,7 @@ header nav a {
     text-align: justify;
     background-color: #D9D9D9;
     padding: 35px; 
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 
 }
 
@@ -232,6 +232,7 @@ header nav a {
     width: 700px;
     height: 512px;
     margin: 37px 0px 37px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 
@@ -283,6 +284,8 @@ header nav a {
     background-color: #21879e;
 }
 =======
+=======
+>>>>>>> 37de6021cab9f0c015ba2403e82b1465ee0ce549
     background-color: #EAECEC;
 }
 #planeswalker article div h3{
@@ -312,4 +315,7 @@ header nav a {
 #planeswalker nav a:nth-child(4), #ugin{ 
     background-color: #319291;
 }
+<<<<<<< HEAD
 >>>>>>> 2fb444c1756a1a4029f18ad406c3cbf5970b01f1
+=======
+>>>>>>> 37de6021cab9f0c015ba2403e82b1465ee0ce549
