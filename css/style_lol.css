@@ -59,3 +59,37 @@ body {
 #regiones article:hover img {
     filter: none;
 }
+
+/* ------------------------------- */
+/*---------- Historia------------- */
+/* ------------------------------- */
+
+#historia {
+    width: 100%;
+
+}
+
+#historia article {
+    width: 100%;
+    height: 450px;
+    background-color: #2F4F4F;
+    margin-top: 5px;
+}
+
+#historia article h2 {
+    color: #ffff;
+    font-size: 36px;
+    padding: 15px 0px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#historia article p {
+    color: #ffff;
+    font-size: 20px;
+    text-align: justify;
+    padding: 40px;
+
+}
+
+
