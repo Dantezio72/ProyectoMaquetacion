@@ -7,10 +7,9 @@
     box-sizing: border-box;
 }
 
-body {
-    margin: auto;
-    width: 1212px;
-    font-family: 'Roboto', sans-serif;
+body{
+    
+    font-family: 'Poppins', sans-serif;
 }
 
 :root{
