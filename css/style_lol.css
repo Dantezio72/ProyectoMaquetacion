@@ -13,6 +13,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+:root{
+    color-scheme: ligth dark;
+    background-color: #242424;
+    color: rgba(255, 255, 255, 0.87);
+}
 
 /* ------------------------------- */
 /*---------- REGIONES------------- */
@@ -21,18 +26,61 @@ body {
     display: flex;
     margin-top: 20px;
     flex-wrap: wrap;
-
+    gap: 5px;
 }
 
 #regiones h2 {
     display: block;
     width: 100%;
     text-align: center;
-    text-decoration: underline darkcyan;
+    text-decoration: underline;
     font-size: 31.5px;
 }
+#regiones a{
+    text-decoration: none;
+    color: #ffff;
+    transition: .2s;
+}
 
+#regiones a article {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+#regiones a article  img {
+    width: 100%;
+    height: 160px;
+    margin-bottom: 0;
+    opacity: .2;
+}
+
+#regiones a article h3 {
+    margin-top: 0;
+    height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(232, 216, 185);
+
+}
+
+#regiones a:hover{
+    border-image-slice: 1;
+    border-image-source: linear-gradient(180deg,#f0e6d2,#c89b3c);
+    border-style: solid;
+    border-width: 1px;
+    transition: opacity .2s ease;
+}
+#regiones a article img:hover{
+    opacity: 1;
+    filter: alpha(opacity=50);
+    zoom: 1.1;
+}
 /* Para que no aparesca hr en la pagina  */
+/*
 #regiones hr {
     visibility: hidden;
 }
@@ -42,14 +90,12 @@ body {
     overflow:hidden;
     
 }
-
 #regiones article img {
     object-fit: contain;
-    /* filter: grayscale(1); */
+    filter: grayscale(1);
     height: 500px;
     text-align: center;
-
-}
+} 
 
 #regiones article:hover {
     transition: 3s ease;
@@ -58,7 +104,10 @@ body {
 }
 #regiones article:hover img {
     filter: none;
-}
+} 
+
+*/
+
 
 /* ------------------------------- */
 /*---------- Historia------------- */
