@@ -16,7 +16,13 @@ body {
 :root{
     color-scheme: ligth dark;
     background-color: #242424;
-    color: rgba(255, 255, 255, 0.87);
+    color: rgb(232, 216, 185);
+}
+
+/* Global */
+
+a {
+    text-decoration: none;
 }
 
 /* ------------------------------- */
@@ -37,7 +43,7 @@ body {
     font-size: 31.5px;
 }
 #regiones a{
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #ffff;
     transition: .2s;
 }
@@ -121,12 +127,14 @@ body {
 #historia article {
     width: 100%;
     height: 450px;
-    background-color: #2F4F4F;
-    margin-top: 5px;
+    /* background-color: #2F4F4F; */
+    margin-top: 10px;
+    border-top: 1px solid rgb(232, 216, 185);
+    border-bottom: 1px solid rgb(232, 216, 185);
+    border-radius: 30px;
 }
 
 #historia article h2 {
-    color: #ffff;
     font-size: 36px;
     padding: 15px 0px;
     text-align: center;
@@ -134,11 +142,14 @@ body {
 }
 
 #historia article p {
-    color: #ffff;
     font-size: 20px;
     text-align: justify;
     padding: 40px;
 
+}
+
+#historia article a {
+    
 }
 
 
