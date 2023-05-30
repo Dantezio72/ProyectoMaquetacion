@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,100;1,400&display=swap');
+
 
 * {
     margin: 0;
@@ -11,140 +12,143 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-header{
-    width: 100%;
+:root{
+    color-scheme: ligth dark;
+    background-color: #242424;
+    color: rgb(232, 216, 185);
 }
 
-header nav section h1{
-    font-size: 28px;
-    letter-spacing: 2px;
-}
+/* Global */
 
-.menu{
-    background-color: #002;
-    color: #777;
-    height: 70px;
-}
-
-#fecha{
-    font-size: 16px;
-    margin-left: 100px;
-    color: #777;
-}
-
-.menu_container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    max-width: 1200px;
-    height: 100%;
-    margin: auto;
-}
-
-.menu_links{
-    height: 100%;
-    transition: transform .5s;
-    display: flex;
-    z-index: 10;
-}
-
-.menu_item{
-    list-style: none;
-    position: relative;
-    height: 100%;
-    --clip: polygon(0 0, 100% 0, 100% 0, 0 0);
-    --transform: rotate(-90deg);
-}
-    .menu_item:hover{
-        --clip: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-        --transform: rotate(0);
-    }
-
-.fa-solid{
-    transform: var(--transform);
-    transition: transform .3s;
-    display: block;
-    right: 3px;
-}
-
-.menu_link{
-    height: 100%;
-    display: flex;
-    padding: 0 20px;
-    align-items: center;
+a {
     text-decoration: none;
-    color: #fff;
-}
-    .menu_link:hover{
-        background-color: #5e7094;
-    }
-
-.menu_nesting{
-    list-style: none;
-    transition: clip-path .3s;
-    clip-path: var(--clip);
-    position: absolute;
-    height: 200px;
-    right: 0;
-    bottom: 0;
-    width: max-content;
-    transform: translateY(100%);
-    background-color: #002;
-}
-.menu_nesting2{
-    list-style: none;
-    transition: clip-path .3s;
-    clip-path: var(--clip);
-    position: absolute;
-    height: 268px;
-    right: 0;
-    bottom: 0;
-    width: max-content;
-    transform: translateY(100%);
-    background-color: #002;
 }
 
-.menu_link--inside{
-    height: 66px;
-    padding: 30px, 100px, 30px, 20px;
-}
-.menu_link--inside:hover{
-    background-color: #5e7094;
-}
-
-
-#carouselExampleSlidesOnly{
-    width: 100%;
-    height: 500px;
-    margin: auto;
+/* ------------------------------- */
+/*---------- REGIONES------------- */
+/* ------------------------------- */
+#regiones {
     display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 5px;
 }
-    #carouselExampleSlidesOnly img{
-        width: 100%;
-        height: 500px;
-        margin: auto;
-        display: flex;
-    }
-    .carousel-caption a{
-        display: block;
-        width: 500px;
-        height: 400px;
-        font-size: 32px;
-        letter-spacing: 2px;
-        text-align: left;
-        text-decoration: none;
-        color: #fff;
-    }
 
-#banner img{
+#regiones h2 {
+    display: block;
     width: 100%;
-    height: 200px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 31.5px;
+}
+#regiones a{
+    /* text-decoration: none; */
+    color: #ffff;
+    transition: .2s;
+}
+
+#regiones a article {
     display: flex;
-    margin: auto;
+    width: 400px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
 }
 
-#contenido{
+#regiones a article  img {
     width: 100%;
-    height: 500px;
+    height: 160px;
+    margin-bottom: 0;
+    opacity: .2;
 }
+
+#regiones a article h3 {
+    margin-top: 0;
+    height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(232, 216, 185);
+
+}
+
+#regiones a:hover{
+    border-image-slice: 1;
+    border-image-source: linear-gradient(180deg,#f0e6d2,#c89b3c);
+    border-style: solid;
+    border-width: 1px;
+    transition: opacity .2s ease;
+}
+#regiones a article img:hover{
+    opacity: 1;
+    filter: alpha(opacity=50);
+    zoom: 1.1;
+}
+/* Para que no aparesca hr en la pagina  */
+/*
+#regiones hr {
+    visibility: hidden;
+}
+
+#regiones article {
+    flex: 1;
+    overflow:hidden;
+    
+}
+#regiones article img {
+    object-fit: contain;
+    filter: grayscale(1);
+    height: 500px;
+    text-align: center;
+} 
+
+#regiones article:hover {
+    transition: 3s ease;
+    flex: 20;
+
+}
+#regiones article:hover img {
+    filter: none;
+} 
+
+*/
+
+
+/* ------------------------------- */
+/*---------- Historia------------- */
+/* ------------------------------- */
+
+#historia {
+    width: 100%;
+
+}
+
+#historia article {
+    width: 100%;
+    height: 450px;
+    /* background-color: #2F4F4F; */
+    margin-top: 10px;
+    border-top: 1px solid rgb(232, 216, 185);
+    border-bottom: 1px solid rgb(232, 216, 185);
+    border-radius: 30px;
+}
+
+#historia article h2 {
+    font-size: 36px;
+    padding: 15px 0px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#historia article p {
+    font-size: 20px;
+    text-align: justify;
+    padding: 40px;
+
+}
+
+#historia article a {
+    
+}
+
+
