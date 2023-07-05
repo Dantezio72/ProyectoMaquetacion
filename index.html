@@ -9,11 +9,12 @@
 </head>
 <body>
     <header>
-        <img src="img/logo-mtg.png" alt="logo magic the gathering">
+        <div>
+            <img src="img/logo-mtg.png" alt="logo magic the gathering"></div>
         <nav>
             <a href="#mana">Mana</a>
             <a href="#planeswalker">Planeswalker</a>
-            <a href="#contacto">Contacto</a>
+            <a href="#social">Contacto</a>
         </nav>
     </header>
     <main>
@@ -94,11 +95,12 @@
                 los jugadores también son considerados planeswalkers a efectos de la ambientación, sólo que no están
                 representados por cartas.
             </p>
-            <nav>
-                <a href="#nissa" onclick="ocultarMostrar('nissa')" >NISSA REVANNE</a>
-                <a href="#chandra" onclick="ocultarMostrar('chandra')" >CHANDRA NALAAR</a>
-                <a href="#arlinn" onclick="ocultarMostrar('arlinn')" >ARLINN KORD</a>
-                <a href="#ugin" onclick="ocultarMostrar('ugin')" >UGIN</a>
+            <nav id="punto">
+                <a href="#punto" onclick="ocultarMostrar('nissa')" >NISSA REVANNE</a>
+                <a href="#punto" onclick="ocultarMostrar('chandra')" >CHANDRA NALAAR</a>
+                <a href="#punto" onclick="ocultarMostrar('arlinn')" >ARLINN KORD</a>
+                <a href="#punto" onclick="ocultarMostrar('ugin')" >UGIN</a>
+
             </nav>
             <article id="nissa">
                 <img src="img/Nissa.jpg" alt="Nissa">
@@ -165,6 +167,17 @@
                 </div>
             </article>
         </section>
+        <footer>
+            <div id="social">
+                <h2>
+                    Redes Sociales
+                </h2>
+                <a href="https://facebook.com" title="Seguinos en Facebook" target="_blank"></a>
+                <a href="https://instagram.com" title="Seguinos en Instagram" target="_blank"></a>
+                <a href="https://linkedin.com" title="Seguinos en Linkedin" target="_blank"></a>
+                <a href="https://github.com/Dantezio72/ProyectoMaquetacion" title="Mira nuestro avance " target="_blank"></a>
+            </div>
+        </footer>
     </main>
     <script src="js/index.js"></script>
 </body>

@@ -25,7 +25,7 @@ function showHide(escenarios)
         pantano.style.display = 'none'
         montaña.style.display = 'flex'
         bosque.style.display = 'none'
-        llanura,style.display = 'none'
+        llanura.style.display = 'none'
     }
     else if( escenarios == 'bosque' ){
         isla.style.display = 'none'
