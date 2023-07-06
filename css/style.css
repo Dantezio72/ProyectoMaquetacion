@@ -284,7 +284,56 @@ header a:hover{
     width: 700px;
     height: 512px;
     margin: 37px 0px 37px;
-    background-color: #EAECEC;
+}
+
+/* clase  */
+
+.nissa {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #86a0a8;
+}
+
+.chandra {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #af4014;
+}
+
+.arlinn{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #433f3f;
+}
+
+.ugin{
+    background-color: #21879e;
+}
+
+/* identificador  */
+
+#nissa{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #86a0a8;
+}
+
+#chandra{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #af4014;
+}
+
+#arlinn{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #433f3f;
+    color: #fff;
+}
+
+#ugin{
+    background-color: #21879e;
+    color: #fff;
 }
 #planeswalker article div h3{
     width: 835px;
@@ -301,9 +350,11 @@ header a:hover{
 
 #planeswalker nav a:nth-child(1), #nissa {
     background-color: #8E9FA3;
+    color: #fff;
 }
 #planeswalker nav a:nth-child(2), #chandra{
     background-color: #8E2D02;
+    color: #fff;
 }
 
 #planeswalker nav a:nth-child(3), #arlinn {
@@ -374,5 +425,4 @@ header a:hover{
     background-color: #ccc;
     background-size: 78px;
     box-shadow: 0 2px 8px #333;
-
 }
